@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <option name="projectDefaultTargetUuid" value="abee6de3-16c6-43c0-bd74-251b153d070e" />
+    <targets>
+      <target name="haidm@40.81.28.52:22" type="ssh/sftp" uuid="abee6de3-16c6-43c0-bd74-251b153d070e">
+        <config>
+          <option name="projectRootOnTarget" value="$USER_HOME$/example-java-read-and-write-from-hdfs" />
+          <option name="serverName" value="haidm@40.81.28.52:22 key" />
+          <option name="useRsync" value="true" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="homePath" value="/usr/lib/jvm/java-8-openjdk-amd64" />
+            <option name="javaVersionString" value="1.8.0_342" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
